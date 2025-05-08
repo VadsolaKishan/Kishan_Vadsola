@@ -1,3 +1,18 @@
+/* A community bank sought to enhance its account management system with a digital solution to 
+improve efficiency and provide better customer service. The system was required to manage the 
+essential details of each account, including the account number, account holder’s name, and balance. 
+Additionally, the bank wanted to provide a secure mechanism for transferring money between 
+accounts, allowing customers to easily manage their funds. 
+The bank also needed a way to track the total number of accounts created, which would be important 
+for generating reports and understanding the growth of their customer base. This feature was aimed 
+at helping the bank maintain an overview of their account portfolio and analyze trends over time. 
+To ensure smooth and reliable operations, the system was designed to store account information in a 
+way that would allow easy access and updates. When new accounts were created, they would be 
+added to the system dynamically. The management team planned for future scalability and 
+performance improvements by considering more efficient storage and retrieval methods after the 
+initial system was built, ensuring that the bank could easily accommodate more accounts and 
+transactions as the customer base grew. */
+    
 #include<iostream>
 #include<vector>
 using namespace std;
