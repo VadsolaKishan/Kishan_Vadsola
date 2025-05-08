@@ -1,3 +1,15 @@
+/* A team of software developers was tasked with creating a graphical simulation where operations on 
+2D points play a crucial role. To facilitate this, they designed a class Point that encapsulates the 
+coordinates 𝑥 and 𝑦. The class provides flexibility through overloaded operators to manipulate points 
+efficiently. The unary operator - is overloaded to negate the coordinates of a point, while the binary 
+operator + enables the addition of two points. Additionally, the equality operator == is overloaded to 
+compare whether two points have identical coordinates. 
+The development process required performing various operations between multiple points. To 
+manage these operations effectively, a mechanism was needed to track and potentially undo them. 
+This challenge prompted two approaches: using a ready-made dynamic stack structure or building a 
+custom stack implementation. By managing a sequence of operations in reverse, the stack-based 
+design allowed for a systematic undo capability, crucial for simulations involving iterative adjustments. */
+
 #include <iostream>
 #include <vector>
 using namespace std;
