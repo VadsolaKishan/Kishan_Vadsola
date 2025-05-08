@@ -1,3 +1,17 @@
+/* A team of developers is tasked with building a temperature conversion system for a weather 
+application. To achieve this, the team creates two classes: Celsius and Fahrenheit. These classes 
+handle the conversion between temperature units, with the ability to convert from Celsius to 
+Fahrenheit and vice versa using type conversion. The team utilizes operator overloading to define the 
+conversion operators for both classes, enabling seamless conversions between the two units. 
+The system also requires the ability to compare two temperature objects to check if they are equal. 
+This is achieved by overloading the equality operator ==, which compares the values of the 
+temperatures in their respective units. 
+To ensure smooth processing of temperature conversions, the team needs to manage and store 
+multiple converted temperature objects. Two approaches are considered for handling this task. The 
+first approach involves using a dynamic data structure, a queue, to process the conversions in a first
+in-first-out (FIFO) manner. Alternatively, a basic array is used to store the converted objects in a static 
+manner. */
+
 #include <iostream>
 #include <queue>
 using namespace std;
