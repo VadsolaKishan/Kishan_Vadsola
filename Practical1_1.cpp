@@ -1,3 +1,15 @@
+/* A bank wants to create a simple system to manage customer bank accounts. The system should 
+allow customers to perform basic banking operations such as depositing money, withdrawing 
+money, and checking their account balance. 
+Each bank account will need to have an account holder's name, a unique account number, and 
+a balance. Deposits should increase the account balance, while withdrawals should only be 
+allowed if there are sufficient funds in the account. If an attempt is made to withdraw more 
+money than is available, an error message should be displayed. Customers should also have the 
+ability to view their account balance whenever required.  
+The system must be designed using Object-Oriented Programming principles, focusing on 
+creating a simple and efficient solution to manage the accounts effectively. The system should 
+ensure that all account details are secure and accessible only through authorized methods. */
+    
 #include<iostream>
 using namespace std;
 
